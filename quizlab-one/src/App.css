@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #47398d;
+}
+#playBtn{
+    background-color: #0ab306;
+    padding: 30px;
+}
+#title{
+    color: white;
+    text-align: center;
+}
+.ji{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

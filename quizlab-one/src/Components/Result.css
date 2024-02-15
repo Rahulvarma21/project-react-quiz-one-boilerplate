@@ -1,0 +1,40 @@
+body{
+    background-color: #47398d;
+}
+h2{
+    color: #027f03;
+    font-size: 40px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.resultContainer{
+    background-color: white;
+    width: 50vw;
+    padding: 2vw;
+}
+h1{
+    color: blue;
+}
+.results{
+    display: flex;
+    justify-content: space-between;
+}
+.footer>button{
+    margin: 3vh;
+    width: 13vh;
+    cursor: pointer;
+    padding: 3px;
+}
+#play{
+    color: #47398d;
+    border: 1px solid #47398d;
+}
+#home{
+    color: #027f03;
+    border: 1px solid #027f03;
+}
