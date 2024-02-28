@@ -1,60 +1,78 @@
-body{
+body {
     background-color: #453a88;
 }
-.quizContainer{
+
+.quizContainer {
     background-color: white;
+    color: black;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    width: 80%;
+    flex-direction: column;
     height: 38vw;
+    width: 80vw;
     margin-left: 9%;
-    margin-top: 7%;
+    margin-top: 4%;
     padding: 1vh;
+    font-family: "Poppins", sans-serif;
 }
-button{
+
+h1 {
+    margin-top: 4vh;
+}
+
+button {
     border: none;
     padding: 1vh;
     cursor: pointer;
+    font-family: "Poppins", sans-serif;
 }
-h1{
-    position: absolute;
-    top: 14%;
-}
-#number{
-    margin-left: -124vh;
-}
-#questionTag{
-    font-size: 25px;
-}
-.options{
+
+.options {
+    display: flex;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 4vh;
     margin-top: 4.5vw;
 }
-.options>button{
+
+.options>button {
     background-color: #4d9feb;
-    width: 62vh;
-    padding: 1.5vh;
+    width: 60vh;
+    padding: 2vh;
     border-radius: 50px;
     color: white;
+    /* font-size: 15px; */
 }
-.selectionBtns{
+
+#number {
+    margin-left: -68vw;
+    font-size: 20px;
+}
+
+.questionTag{
+    font-size: 25px;
+}
+
+.selectionBtns {
     display: flex;
-    margin: 4vh;
+    margin: 7vh;
 }
-.selectionBtns>button{
-    margin: 2vh;
-    width: 9vh;
+
+
+.btn {
+    width: 100px;
+    padding: 1vh;
+    margin: 1vh;
 }
-#prev{
-    background-color:#4f7ca6;
+
+#prev {
+    background-color: #4f7ca6;
 }
-#next{
+
+#next {
     background-color: #25a100;
 }
-#quit{
+
+#quit {
     background-color: #ff1500;
 }

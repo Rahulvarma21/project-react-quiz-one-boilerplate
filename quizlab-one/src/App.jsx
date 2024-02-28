@@ -1,13 +1,15 @@
 // import Home from './Components/Home'
-// import Quiz from "./Components/Quiz";
+import { Routes,Route } from "react-router-dom";
+import Quiz from "./Components/Quiz";
+import Home from "./Components/Home";
 import Result from "./Components/Result";
 function App() {
   return (
-    <div>
-      {/* <Home/> */}
-      {/* <Quiz /> */}
-      <Result />
-    </div>
+    <Routes>
+    <Route path="/" element={<Home/>}/>
+    <Route path="/quiz" element={<Quiz/>}/>
+    <Route path="/Result" element={<Result/>}/>
+    </Routes>
   );
 }
 
